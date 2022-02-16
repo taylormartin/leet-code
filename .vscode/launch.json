@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "LargestNumArray",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "LargestNumArray.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "PlusOne",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "PlusOne.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "DiaganolTraverse",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "DiaganolTraverse.js"
+        }
+    ]
+}
